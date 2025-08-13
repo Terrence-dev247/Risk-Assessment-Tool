@@ -1,0 +1,465 @@
+{
+  "risk_categories": [
+    {
+      "category_id": "CAT01",
+      "category_name": "Insufficient project management",
+      "risks": [
+        {
+          "risk_id": "R01_01",
+          "description": "Lack of clear project goals and objectives.",
+          "likelihood_score": 4,
+          "impact_score": 5,
+          "severity": "High"
+        },
+        {
+          "risk_id": "R01_02",
+          "description": "Unrealistic timelines and schedules.",
+          "likelihood_score": 5,
+          "impact_score": 4,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT02",
+      "category_name": "Insufficient team management",
+      "risks": [
+        {
+          "risk_id": "R02_01",
+          "description": "Poorly defined roles and responsibilities within the team.",
+          "likelihood_score": 3,
+          "impact_score": 4,
+          "severity": "Medium"
+        },
+        {
+          "risk_id": "R02_02",
+          "description": "Lack of motivation or engagement from team members.",
+          "likelihood_score": 3,
+          "impact_score": 3,
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT03",
+      "category_name": "Insufficient budget management",
+      "risks": [
+        {
+          "risk_id": "R03_01",
+          "description": "Exceeding the allocated budget for the project.",
+          "likelihood_score": 2,
+          "impact_score": 5,
+          "severity": "High"
+        },
+        {
+          "risk_id": "R03_02",
+          "description": "Unexpected costs related to data or infrastructure.",
+          "likelihood_score": 3,
+          "impact_score": 4,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT04",
+      "category_name": "Insufficient time management",
+      "risks": [
+        {
+          "risk_id": "R04_01",
+          "description": "Failing to meet project deadlines.",
+          "likelihood_score": 4,
+          "impact_score": 4,
+          "severity": "High"
+        },
+        {
+          "risk_id": "R04_02",
+          "description": "Delays in data acquisition or processing.",
+          "likelihood_score": 5,
+          "impact_score": 3,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT05",
+      "category_name": "Poor requirements engineering",
+      "risks": [
+        {
+          "risk_id": "R05_01",
+          "description": "Requirements are unclear, incomplete, or change frequently.",
+          "likelihood_score": 5,
+          "impact_score": 5,
+          "severity": "High"
+        },
+        {
+          "risk_id": "R05_02",
+          "description": "Misunderstanding business needs.",
+          "likelihood_score": 4,
+          "impact_score": 5,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT06",
+      "category_name": "Poor communication",
+      "risks": [
+        {
+          "risk_id": "R06_01",
+          "description": "Lack of effective communication among team members.",
+          "likelihood_score": 3,
+          "impact_score": 3,
+          "severity": "Medium"
+        },
+        {
+          "risk_id": "R06_02",
+          "description": "Communication breakdown between technical and non-technical teams.",
+          "likelihood_score": 4,
+          "impact_score": 3,
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT07",
+      "category_name": "Insufficient stakeholder management",
+      "risks": [
+        {
+          "risk_id": "R07_01",
+          "description": "Failing to manage the expectations of project stakeholders.",
+          "likelihood_score": 4,
+          "impact_score": 5,
+          "severity": "High"
+        },
+        {
+          "risk_id": "R07_02",
+          "description": "Lack of stakeholder buy-in or support.",
+          "likelihood_score": 3,
+          "impact_score": 5,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT08",
+      "category_name": "Poor technical management",
+      "risks": [
+        {
+          "risk_id": "R08_01",
+          "description": "Choosing an unsuitable technology stack for the project.",
+          "likelihood_score": 2,
+          "impact_score": 5,
+          "severity": "High"
+        },
+        {
+          "risk_id": "R08_02",
+          "description": "Inefficient software development practices.",
+          "likelihood_score": 3,
+          "impact_score": 3,
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT09",
+      "category_name": "Poor data availability, quality, and timeliness",
+      "risks": [
+        {
+          "risk_id": "R09_01",
+          "description": "Data is unavailable or of poor quality.",
+          "likelihood_score": 5,
+          "impact_score": 5,
+          "severity": "High"
+        },
+        {
+          "risk_id": "R09_02",
+          "description": "Data is not delivered on time, delaying the project.",
+          "likelihood_score": 5,
+          "impact_score": 4,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT10",
+      "category_name": "Insufficient data security and privacy",
+      "risks": [
+        {
+          "risk_id": "R10_01",
+          "description": "Data breach leading to sensitive information being exposed.",
+          "likelihood_score": 2,
+          "impact_score": 5,
+          "severity": "High"
+        },
+        {
+          "risk_id": "R10_02",
+          "description": "Non-compliance with data privacy regulations (e.g., GDPR).",
+          "likelihood_score": 3,
+          "impact_score": 5,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT11",
+      "category_name": "Insufficient IT infrastructure",
+      "risks": [
+        {
+          "risk_id": "R11_01",
+          "description": "IT infrastructure cannot handle the project's computational needs.",
+          "likelihood_score": 3,
+          "impact_score": 4,
+          "severity": "High"
+        },
+        {
+          "risk_id": "R11_02",
+          "description": "Lack of access to necessary tools or platforms.",
+          "likelihood_score": 4,
+          "impact_score": 3,
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT12",
+      "category_name": "Insufficient model management",
+      "risks": [
+        {
+          "risk_id": "R12_01",
+          "description": "Failure to track, version, and deploy machine learning models effectively.",
+          "likelihood_score": 3,
+          "impact_score": 4,
+          "severity": "High"
+        },
+        {
+          "risk_id": "R12_02",
+          "description": "Model performance degrades over time in production.",
+          "likelihood_score": 4,
+          "impact_score": 4,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT13",
+      "category_name": "Poor model transparency",
+      "risks": [
+        {
+          "risk_id": "R13_01",
+          "description": "Lack of understanding of how a model makes its predictions.",
+          "likelihood_score": 3,
+          "impact_score": 3,
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT14",
+      "category_name": "Poor explainability",
+      "risks": [
+        {
+          "risk_id": "R14_01",
+          "description": "Inability to explain the model's output to non-technical stakeholders.",
+          "likelihood_score": 4,
+          "impact_score": 3,
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT15",
+      "category_name": "Poor interpretability",
+      "risks": [
+        {
+          "risk_id": "R15_01",
+          "description": "The model's internal workings are too complex to be understood by humans.",
+          "likelihood_score": 2,
+          "impact_score": 3,
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT16",
+      "category_name": "Unethical use of data",
+      "risks": [
+        {
+          "risk_id": "R16_01",
+          "description": "Using data in a way that violates ethical standards.",
+          "likelihood_score": 1,
+          "impact_score": 5,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT17",
+      "category_name": "Bias in data",
+      "risks": [
+        {
+          "risk_id": "R17_01",
+          "description": "Data contains hidden biases that lead to unfair outcomes.",
+          "likelihood_score": 3,
+          "impact_score": 5,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT18",
+      "category_name": "Bias in algorithm",
+      "risks": [
+        {
+          "risk_id": "R18_01",
+          "description": "The algorithm perpetuates or amplifies existing biases.",
+          "likelihood_score": 2,
+          "impact_score": 5,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT19",
+      "category_name": "Insufficient legal and regulatory compliance",
+      "risks": [
+        {
+          "risk_id": "R19_01",
+          "description": "Failing to comply with laws and regulations (e.g., GDPR).",
+          "likelihood_score": 2,
+          "impact_score": 5,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT20",
+      "category_name": "Insufficient data governance",
+      "risks": [
+        {
+          "risk_id": "R20_01",
+          "description": "Lack of clear policies for managing data assets.",
+          "likelihood_score": 3,
+          "impact_score": 4,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT21",
+      "category_name": "Insufficient change management",
+      "risks": [
+        {
+          "risk_id": "R21_01",
+          "description": "Failing to manage the transition to the new data science solution.",
+          "likelihood_score": 4,
+          "impact_score": 3,
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT22",
+      "category_name": "Poor business strategy",
+      "risks": [
+        {
+          "risk_id": "R22_01",
+          "description": "The project is not aligned with the company's overall business goals.",
+          "likelihood_score": 2,
+          "impact_score": 5,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT23",
+      "category_name": "Poor corporate culture",
+      "risks": [
+        {
+          "risk_id": "R23_01",
+          "description": "A company culture that is resistant to data-driven decision-making.",
+          "likelihood_score": 3,
+          "impact_score": 4,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT24",
+      "category_name": "Poor business process management",
+      "risks": [
+        {
+          "risk_id": "R24_01",
+          "description": "The project fails to integrate with existing business processes.",
+          "likelihood_score": 4,
+          "impact_score": 4,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT25",
+      "category_name": "Insufficient knowledge transfer",
+      "risks": [
+        {
+          "risk_id": "R25_01",
+          "description": "Project knowledge is not effectively shared with the team or future users.",
+          "likelihood_score": 3,
+          "impact_score": 3,
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT26",
+      "category_name": "Lack of talent",
+      "risks": [
+        {
+          "risk_id": "R26_01",
+          "description": "Inability to find or retain skilled data scientists.",
+          "likelihood_score": 2,
+          "impact_score": 5,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT27",
+      "category_name": "Lack of skills",
+      "risks": [
+        {
+          "risk_id": "R27_01",
+          "description": "Team members lack the necessary skills to complete the project.",
+          "likelihood_score": 3,
+          "impact_score": 4,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT28",
+      "category_name": "Insufficient training",
+      "risks": [
+        {
+          "risk_id": "R28_01",
+          "description": "Users are not adequately trained to use the new data science solution.",
+          "likelihood_score": 4,
+          "impact_score": 3,
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "category_id": "CAT29",
+      "category_name": "Lack of motivation",
+      "risks": [
+        {
+          "risk_id": "R29_01",
+          "description": "Team members lose interest or motivation in the project.",
+          "likelihood_score": 3,
+          "impact_score": 3,
+          "severity": "Medium"
+        }
+      ]
+    }
+  ]
+}
